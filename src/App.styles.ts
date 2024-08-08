@@ -1,5 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
-import BGImage from './images/nattu-adnan-unsplash.jpg';
+import BGImage from './images/bg.jpg';
 
 export const GlobalStyle = createGlobalStyle`
   html {
@@ -54,7 +54,7 @@ export const Wrapper = styled.div`
 
   .start, .next {
     cursor: pointer;
-    background: linear-gradient(180deg, #ffffff, #ffcc91);
+    background: linear-gradient(180deg, #2597ae, #0c72c0);
     border: 2px solid #d38558;
     box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
